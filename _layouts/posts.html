@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include header.html %}
+  </head>
+  <body>
+    <header>
+      {% include nav.html %}
+      <div class="container">
+        <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line">
+          <p style="font-family: 'Rubik Dirt'" class="center author">СТАТЬИ</p>
+        <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line flip"><br>
+      </div>
+    </header>
+    <main class="container">
+      {% include list_post.html %}
+    </main>
+    <footer>
+      {% include foot.html %}
+    <footer>
+  </body>
+</html>
