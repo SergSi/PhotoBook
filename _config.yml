@@ -9,7 +9,7 @@ date: true
 
 logo: /assets/img/logo.png
 
-baseurl: ""
+baseurl: "https://refbook.ru/"
 
 collections:
   docs:
