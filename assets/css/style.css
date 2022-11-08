@@ -23,6 +23,9 @@ body{
   background-image: url("../img/bg.jpg");
 }
 
+body,p {
+font-weight: 600;
+}
 
 body::selection{
   background: #fff2a8;
