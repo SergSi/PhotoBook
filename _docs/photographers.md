@@ -3,7 +3,7 @@ layout: doc
 author: Сайты фотографов
 category: Сайты
 ---
-<p style="text-indent: 1.5em;"><a  href="https://www.davidguttenfelder.com/">David Guttenfelder</a> - документальная фотография</p>
+[David Guttenfelder](https://www.davidguttenfelder.com/)- документальная фотография
 
 [Edward Burtynsky](https://www.edwardburtynsky.com/) - концептуальная фотография
 
