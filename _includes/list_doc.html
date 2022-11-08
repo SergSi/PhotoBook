@@ -1,5 +1,4 @@
 <div class="articles">
-Базовый адрес: {{ doc.url }}
 {% assign int = 1 %}
 {% for category in site.data.docs %}
 <br><h4 class="center linetitle">{{ category.head }}</h4>
@@ -16,6 +15,7 @@
           <a href="{{ site.baseurl }}{{ doc.url }}" class="link">
           <h4 style="margin-bottom: 0.2em; line-height: 1.2;">{{ doc.title }}</h4>
           <div style="margin-bottom: 10px; line-height: 1.4em;" class="justify">
+            {% if doc.author %}<h5 style="font-style: italic; margin-bottom: 0.5em;">{{ doc.author }}{% endif %}</h5>
             {% if doc.abstract %}{{ doc.abstract | truncatewords:25 }}{% else %}{{ doc.content | truncatewords:25 | strip_newlines }}{% endif %}
           </div>
           </a>

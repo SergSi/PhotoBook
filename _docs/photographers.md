@@ -1,6 +1,7 @@
 ---
 layout: doc
-autor: Сайты фотографов
+author: Сайты фотографов
+category: Сайты
 ---
 <p style="text-indent: 1.5em;"><a  href="https://www.davidguttenfelder.com/">David Guttenfelder</a> - документальная фотография</p>
 

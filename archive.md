@@ -1,6 +1,6 @@
 ---
 layout: arhives
 title: Материалы
-permalink: /arhive/
+permalink: /arhives/
 ---
 Здесь размещается информация о книге

@@ -15,6 +15,7 @@
           <a href="{{ site.baseurl }}{{ post.url }}" class="link">
           <h4 style="margin-bottom: 0.2em; line-height: 1.2;">{{ post.title }}</h4>
           <div style="margin-bottom: 10px; line-height: 1.4em;" class="justify">
+            {% if doc.author %}<h5 style="font-style: italic; margin-bottom: 0.5em;">{{ doc.author }}{% endif %}</h5>
             {% if post.abstract %}{{ post.abstract | truncatewords:25 }}{% else %}{{ post.content | truncatewords:25 | strip_newlines }}{% endif %}
           </div>
           </a>
