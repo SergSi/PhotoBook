@@ -23,7 +23,7 @@ body{
   background-image: url("../img/bg.jpg");
 }
 
-body,p {
+main,p {
 font-weight: 600;
 }
 
