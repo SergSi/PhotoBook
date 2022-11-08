@@ -204,3 +204,47 @@ and (min-device-width : 768px)  {
     margin-right:0;
   }
 }
+/* ============================================================ */
+/* IMG */
+/* ============================================================ */
+
+figure {
+  display: table;
+  width: auto;
+  max-width: 90%;
+  font-style: italic;
+  font-size: 90%;
+  /* border: thin silver solid;
+    border-top: none;
+  */
+  margin: 0.5em;
+  padding-bottom: 0.5em;
+  padding-top: 0;
+  /* Выравнивание по центру */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: top;
+  padding: 0.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+/*border: thin silver solid;
+  border-bottom: none;*/
+}
+
+.bordernot {
+  border-style: none;
+}
+
+img {
+  display:block;
+  margin: auto;
+  width: auto;
+  max-width: 90%;
+  border-radius: 0.2em;
+  box-shadow: 0.1em 0.4em 0.7em 0.1em #696969;
+}
