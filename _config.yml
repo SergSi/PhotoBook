@@ -9,6 +9,8 @@ date: true
 
 logo: /assets/img/logo.png
 
+baseurl: "/"
+
 collections:
   docs:
       output: true
