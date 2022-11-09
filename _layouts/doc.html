@@ -16,7 +16,7 @@
             {% if page.subtitle %}<p style="font-size: 1.2em;" class="center">{{ page.subtitle }}</p5>{% endif %}
           <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line flip">
             <br>{% if page.abstract %}<h4 style="margin-top: 0;" class="center">{{ page.abstract }}</h4>{% endif %}
-          <div class="onecol justify">
+          <div class="onecol justify bold-font">
             {% include toc.html html=content %}
             {{ content }}
           </div>

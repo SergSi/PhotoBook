@@ -23,7 +23,7 @@ body{
   background-image: url("../img/bg.jpg");
 }
 
-main,p {
+.bold-font {
 font-weight: 600;
 }
 
@@ -32,7 +32,7 @@ body::selection{
 }
 
 p::selection{
-  background: grey;
+  background: lightgrey;
 }
 
 .fixed-top {
