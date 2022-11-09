@@ -1,7 +1,7 @@
 ---
 title: Camera lucida. Комментарий к фотографии
 author: Ролан Барт
-subtitle: Фрагменты книги
+subtitle: Фрагменты 
 category: Фотография
 layout: doc
 ---

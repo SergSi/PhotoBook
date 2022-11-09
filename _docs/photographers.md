@@ -1,6 +1,6 @@
 ---
 layout: doc
-author: Сайты фотографов
+title: Сайты фотографов
 category: Сайты
 ---
 [David Guttenfelder](https://www.davidguttenfelder.com/)- документальная фотография
