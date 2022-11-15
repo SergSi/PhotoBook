@@ -7,18 +7,15 @@ date: true
 logo: /assets/img/logo.png
 
 baseurl: ""
-permalink: '/:collection/:path/'
+permalink: '/:categories/:title/'
 
 collections:
   docs:
       output: true
-      layout: doc
-  contents:
-      output: true
-      layout: text
+      permalink: /:collection/:name
   archives:
       output: true
-      layout: doc
+      permalink: /:collection/:name
 
 # Build settings
 exclude: README.md
@@ -30,8 +27,12 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+urlimg: 'https://refbook.ru/assets/img/'
+
 defaults:
-  - scope:
+    scope:
       path: ""
+      type: category
     values:
       toc: true
+      layout: "doc"

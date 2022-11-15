@@ -1,21 +1,17 @@
 ---
 layout: doc
-title: Сайты фотографов
-category: Сайты
+title: Сайты
+permalink: /sites/
 ---
 [David Guttenfelder](https://www.davidguttenfelder.com/)- документальная фотография
 
 [Edward Burtynsky](https://www.edwardburtynsky.com/) - концептуальная фотография
-
-[Вадим Гиппенрейтер](https://www.gippenreiter.ru/) - документальная пейзажная фотография
 
 [Александр Гронский](https://www.alexandergronsky.com/) - концептуальная фотография
 
 [HIROSHI SUGIMOTO](https://www.sugimotohiroshi.com/) - концептуальная фотография
 
 [Робер Демаши](https://photocentra.ru/blog/4234) - пикториализм
-
-[Георгий Розов](http://www.rozov.ru/) - художественная фотография
 
 [BENOIT.P](https://gbuffer.myportfolio.com/projects) - художественная фотография
 

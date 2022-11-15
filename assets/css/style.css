@@ -156,27 +156,16 @@ hr.simple {
   font-style: italic;
 }
 
-.onecol::first-letter {
-  font-size: 1em;
-}
 
 .threecol::first-letter {
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
 
 .twocol::first-letter{
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
 
 .threecol{
-  -ms-word-break: keep-all;
-  word-break: keep-all;
-  hyphens: auto;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-}
-
-.onecol{
   -ms-word-break: keep-all;
   word-break: keep-all;
   hyphens: auto;
@@ -202,6 +191,16 @@ and (min-device-width : 768px)  {
     column-gap: 20px;
     width: 100%;
   }
+  .twocol {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    width: 100%;
+  }
+
   .tag{
     width: 23%;
     margin-right:0;
@@ -214,29 +213,30 @@ and (min-device-width : 768px)  {
 figure {
   display: table;
   width: auto;
-  max-width: 90%;
-  font-style: italic;
-  font-size: 90%;
-  /* border: thin silver solid;
-    border-top: none;
-  */
-  margin: 0.5em;
-  padding-bottom: 0.5em;
-  padding-top: 0;
+  max-width: auto;
+  border: thin grey solid;
+  border-bottom: none;
+  margin: 0em;
+  padding-bottom: 0em;
+  padding-top: 1em;
   /* Выравнивание по центру */
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1em;
+  margin-top: 0em;
 }
 
 figcaption {
-  display: table-caption;
-  caption-side: top;
-  padding: 0.5em;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-/*border: thin silver solid;
-  border-bottom: none;*/
+  font-style: italic;
+  font-size: 90%;
+  display: table;
+  caption-side: bottom;
+  padding: 0em;
+  padding-top: 0em;
+  padding-bottom: 0.5em;
+  border: thin grey solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
 }
 
 .bordernot {
