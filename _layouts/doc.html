@@ -21,9 +21,11 @@
           </div>
           <div class="justify bold-font">
             {{ content }}
-            {% include gallery %}
           </div>
-      </article>
+          <div>
+            {% include carousel.html height="50" unit="%" duration="7" number="1" %}
+          </div>
+        </article>
     </main>
     <footer>
       {% include foot.html %}
