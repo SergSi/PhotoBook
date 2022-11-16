@@ -1,5 +1,5 @@
 ---
-layout: arhives
+layout: sites
 title: Сайты
 permalink: /sites/
 ---

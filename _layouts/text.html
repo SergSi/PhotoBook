@@ -4,16 +4,7 @@
     {% include header.html %}
   </head>
   <body>
-    <header>
-      {% include nav.html %}
-      <div class="container">
-        <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line">
-        <p style="font-family: 'Rubik Dirt', cursive;" class="center author">
-          {% if page.title %}{{ page.title | upcase }}{% endif %}<br></p>
-        <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line flip">
-        <br>{% if page.abstract %}<h4 style="margin-top: 0;"class="center">{{ page.abstract }}</h4>{% endif %}
-      </div>
-    </header>
+    {% include head.html %}
     <main>
       <div class="container bold-font">
         {% include toc.html html=content %}

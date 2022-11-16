@@ -4,14 +4,7 @@
     {% include header.html %}
   </head>
   <body>
-    <header>
-      {% include nav.html %}
-      <div class="container">
-        <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line">
-          <p style="font-family: 'Rubik Dirt'" class="center author">{{ page.title | upcase }}</p>
-        <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line flip">  <br>
-      </div>
-    </header>
+    {% include head.html %}
     <main>
       <div class="container">
         {{ content }}
