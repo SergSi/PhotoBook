@@ -23,7 +23,7 @@
             {{ content }}
           </div>
           <div>
-            {% include carousel.html height="55" unit="%" duration="777" number="1" %}<br>
+            {% if page.gallery %}{% include carousel.html height="55" unit="%" duration="777" number="1" %}{% endif %}<br>
           </div>
         </article>
     </main>
