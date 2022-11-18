@@ -38,7 +38,6 @@
         </div>
     </div>
 </div>
-
 <style>
 .carousel__holder {
   width: 80%;
@@ -67,9 +66,9 @@
           transform: translateX(-{{ forloop.index0 }}00%);
 }
 .carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__slide:nth-of-type({{ forloop.index }}) {
-  transition: opacity 10s, -webkit-transform 10s;
-  transition: opacity 10s, transform 10s;
-  transition: opacity 10s, transform 10s, -webkit-transform 10s;
+  transition: opacity 1s, -webkit-transform 1s;
+  transition: opacity 1s, transform 1s;
+  transition: opacity 1s, transform 1s, -webkit-transform 1s;
   top: 0;
   left: 0;
   right: 0;
@@ -106,18 +105,18 @@
   opacity: 1;
 }
 .carousel__control--backward {
-  left: 20px;
+  left: 15px;
   -webkit-transform: rotate(-135deg);
           transform: rotate(-135deg);
 }
 .carousel__control--forward {
-  right: 20px;
+  right: 15px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 .carousel__indicators {
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   width: 100%;
   text-align: center;
 }
