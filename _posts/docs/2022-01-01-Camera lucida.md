@@ -34,7 +34,7 @@ gallery:
       caption: Надар. Саворньян де Бразза, 1882
     - image_url: rb_013.jpg
       caption: Роберт Мэйплторп. Фил Гласе и Боб Уилсон
-    - image_url: rb_014jpg
+    - image_url: rb_014.jpg
       caption: Д.У. Уилсон. Королева Виктория, 1863
     - image_url: rb_015.jpg
       caption: Роберт Мэйплторп. Молодой человек с вытянутой рукой
