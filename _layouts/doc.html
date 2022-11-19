@@ -19,11 +19,13 @@
           <div class="justify bold-font">
             {% include toc.html html=content %}
           </div>
-          <div class="justify bold-font">
+          <div class="justify">
             {{ content }}
           </div>
           <div>
-            {% if page.gallery %}{% include carousel.html height="55" unit="%" duration="777" number="1" %}{% endif %}<br>
+            {% if page.carousel %}{% include carousel.html height="55" unit="%" duration="777" number="1" %}{% endif %}
+            {% if page.gallery %}{% include gallery %}{% endif %}
+            <br>
           </div>
         </article>
     </main>

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Neucha&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600&family=Rubik+Dirt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /*font-family: 'Balsamiq Sans', cursive;
 font-family: 'Neucha', cursive;
 font-family: 'Playfair Display', serif;
@@ -8,6 +9,7 @@ font-family: 'Rubik Dirt', cursive;
 font-family: 'Oswald', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Old Standard TT', serif;
+font-family: 'Philosopher', sans-serif;
 */
 
 body{
@@ -15,16 +17,11 @@ body{
   text-decoration-skip: ink;
   color: #2f2f2f;
   padding-top: 0px;
-  font-family: 'Raleway', sans-serif;
   background-color: #F2F7F9;
   background-size: auto;
   background-position: center;
   background-repeat: repeat;
   background-image: url("../img/bg.jpg");
-}
-
-.bold-font {
-font-weight: 600;
 }
 
 body::selection{

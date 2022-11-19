@@ -122,10 +122,27 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-weight: 500;
-  font-family: "Raleway", serif;
+  font-weight: 400;
+  font-family: 'Philosopher', sans-serif;
+}
+
+p::first-letter {
+        font-size: 120%;
+}
+
+p + p::first-letter {
+        font-size: 100%;
+}
+
+p {
+  margin-bottom: 0.15em;
+}
+
+p + p {
+  text-indent: 1.2em;
+  margin-top: 0
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -135,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
+  margin-top: 1em;
   margin-bottom: 2rem;
   font-weight: 300;
   text-align:left;
@@ -143,7 +160,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
 }
 
-
+h1 {
+  margin-top: 0;
+}
 
 h1 { font-size: 3.3rem; line-height: 1.2;  letter-spacing: -.05rem; }
 h2 { font-size: 2.8rem; line-height: 1.25; letter-spacing: -.05rem; }
@@ -399,7 +418,6 @@ blockquote,
 dl,
 figure,
 table,
-p,
 ul,
 ol,
 form {
@@ -482,6 +500,6 @@ there.
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
   body {
-    font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
+    font-size: 1.8em; /* currently ems cause chrome bug misinterpreting rems on body element */
     }
 }
