@@ -4,7 +4,7 @@
 	{% capture url %}{{ item.image_url }}{% endcapture %}
 		<a href="{{ site.urlimg }}{{ item.image_url }}" class="link">
 			<img class="foto" alt="Фото" src="{{ site.urlimg }}{{ item.image_url }}" />
-			<div style="margin-top: 0.5em; margin-bottom: 1em;" class="center">{% if item.caption %}{{ item.caption }}{% endif %}</div>
+			<div style="margin-top: 0.5em; margin-bottom: 1em; font-style: italic;" class="center">{% if item.caption %}{{ item.caption }}{% endif %}</div>
 		</a>
 	</div>
 	{% cycle "end row1": "", "", "</div>" %}
