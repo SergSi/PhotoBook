@@ -18,14 +18,15 @@ collections:
       permalink: /:collection/:name
 
 # Build settings
-exclude: README.md
+exclude: 
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  
 markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
 
 urlimg: 'https://refbook.ru/assets/img/'
 
