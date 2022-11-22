@@ -510,6 +510,11 @@ there.
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
+  
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
   body {
     font-size: 1.7em; /* currently ems cause chrome bug misinterpreting rems on body element */
     }
@@ -523,9 +528,4 @@ there.
     p + p {
       text-indent: 0px;
     }
-}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {
-
 }
