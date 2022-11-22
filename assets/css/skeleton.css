@@ -32,7 +32,7 @@
 .width-container {
   position: relative;
   width: 100%;
-  max-width: 800px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
@@ -177,9 +177,18 @@ h4 { font-size: 2.3rem; line-height: 1.35; letter-spacing: -.01rem; }
 h5 { font-size: 2.0rem; line-height: 1.5;  letter-spacing: -.0rem; }
 h6 { font-size: 1.8rem; line-height: 1.6;  letter-spacing: 0; }
 
+
+/* Колонки
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.onecol {
+  column-count: 1;
+}
+
 /* Линии в заголовке
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-    
+
+
 .linetitle {
    overflow: hidden;
    text-align: center;
@@ -496,7 +505,20 @@ there.
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-
+  body {
+    font-size: 1.7em; /* currently ems cause chrome bug misinterpreting rems on body element */
+    }
+  
+    p {
+      column-count: 2;
+      margin-bottom: 1.5em;
+      column-gap: 2em;
+      
+    }  
+    
+    p + p {
+      text-indent: 0px;
+    }
 }
 
 /* Larger than desktop */
@@ -506,7 +528,5 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
-  body {
-    font-size: 1.8em; /* currently ems cause chrome bug misinterpreting rems on body element */
-    }
+
 }
