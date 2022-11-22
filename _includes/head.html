@@ -2,12 +2,12 @@
   {% include nav.html %}
   <div class="container">
     <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line">
-      <p style="font-family: 'Rubik Dirt', cursive;" class="center author onecol">{{ page.title | upcase }}<br></p>
+      <p style="font-family: 'Rubik Dirt', cursive;" class="center author">{{ page.title | upcase }}<br></p>
     <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line flip">
     <br>{% if page.abstract %}<h4 style="margin-top: 0;"class="center">{{ page.abstract }}</h4>{% endif %}
     {% if page.date %}
       <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line tag flip">
-      <p class="right tagline onecol">{% include rus.html %}</p>
+      <p class="right tagline">{% include rus.html %}</p>
       <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line tag">
     {% endif %}<br>
   </div>
