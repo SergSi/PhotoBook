@@ -32,6 +32,10 @@ p::selection{
   background: lightgrey;
 }
 
+.glava {
+  column-count: 2;	
+}
+
 .fixed-top {
   position: static;
   right: 0;
