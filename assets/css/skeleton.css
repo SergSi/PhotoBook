@@ -179,7 +179,7 @@ h6 { font-size: 1.8rem; line-height: 1.6;  letter-spacing: 0; }
 
 /* Линии в заголовке
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-h1 + p::after {
+h2 + p::after {
   content: "<div style=glava";}
 
 .linetitle {
