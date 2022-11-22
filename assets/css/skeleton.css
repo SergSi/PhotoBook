@@ -181,7 +181,8 @@ h6 { font-size: 1.8rem; line-height: 1.6;  letter-spacing: 0; }
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h2 + p::after {
   content: "<div style=glava";}
-
+h2 + p:after {
+  content: "<div style=glava";}
 .linetitle {
    overflow: hidden;
    text-align: center;
