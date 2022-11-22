@@ -180,7 +180,7 @@ h6 { font-size: 1.8rem; line-height: 1.6;  letter-spacing: 0; }
 /* Линии в заголовке
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 p + h2:after {
-  content: "</div>"}
+  content: </div>}
     
 
     
@@ -188,7 +188,7 @@ p + h2:after {
 
 
 h2 + p:before {
-  content: "<div ##style='glava'>";}
+  content: <div style='glava'>;}
 
 .linetitle {
    overflow: hidden;
