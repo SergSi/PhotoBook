@@ -499,6 +499,6 @@ there.
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
   body {
-    font-size: 1.8em; /* currently ems cause chrome bug misinterpreting rems on body element */
+    font-size: 1.7em; /* currently ems cause chrome bug misinterpreting rems on body element */
     }
 }
