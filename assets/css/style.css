@@ -43,8 +43,8 @@ p::selection{
 }
 
 .corner {
-  right: 0.5%;
-  top: 25px;
+  right: 2%;
+  top: 26px;
   position: fixed;
   z-index: 1040;
 }
