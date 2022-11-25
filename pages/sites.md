@@ -3,7 +3,8 @@ layout: sites
 title: Сайты
 permalink: /sites/
 ---
-[David Guttenfelder](https://www.davidguttenfelder.com/)- документальная фотография
+
+ <p style="text-indent: 1.2em;"><a  href="https://www.davidguttenfelder.com/">David Guttenfelder</a> - документальная фотография</p>
 
 [Edward Burtynsky](https://www.edwardburtynsky.com/) - концептуальная фотография
 
