@@ -6,3 +6,6 @@
 <link rel="stylesheet" href="/assets/css/skeleton.css">
 <link rel="stylesheet" href="/assets/css/normalize.css">
 <title>{{ site.title }}</title>
+{% unless page.style == NULL %}
+<style type="text/css">{{ page.style }}</style>
+{% endunless %}
