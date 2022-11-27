@@ -9,4 +9,4 @@
 	</div>
 	{% cycle "end row1": "", "", "</div>" %}
 {% endfor %}
-{% cycle 'end row2' : "", '</div>', '</div>', '</div>' %}
+{% cycle 'end row1' : "", '</div>', '</div>', '</div>' %}
