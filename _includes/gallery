@@ -1,7 +1,7 @@
 {% for item in page.gallery %}
 	{% cycle "add row1": "<div class='row'>", "", "" %}
 	<div class="four columns">
-	{% capture url %}{{ item.image_url }}{% endcapture %}
+		{% capture url %}{{ item.image_url }}{% endcapture %}
 		<a href="{{ site.urlimg }}{{ item.image_url }}" class="link">
 			<img class="foto" alt="Фото" src="{{ site.urlimg }}{{ item.image_url }}" />
 			<div style="margin-top: 0.5em; margin-bottom: 1em; font-style: italic; line-height: 1.2;" class="center">{% if item.caption %}{{ item.caption }}{% endif %}</div>
