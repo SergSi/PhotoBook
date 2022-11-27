@@ -6,7 +6,7 @@
   <body>
     <header>
        {% include nav.html %}
-    <header>
+    </header>
     <main>
       <article>
         <div class="width-container">
@@ -21,12 +21,12 @@
           <div class="justify bold-font container">
             {% include toc.html html=content %}
           </div>
-          <div style="max-width: 100%;" class="justify container">
+          <div class="justify container">
             {{ content }}
           </div>
-          <div style="width: 120%; margin-left: -10%";>
-            {% if page.carousel %}{% include carousel.html height="55" unit="%" duration="777" number="1" %}{% endif %}
+          <div class="width-container">
             {% if page.gallery %}{% include gallery %}{% endif %}
+            {% if page.carousel %}{% include carousel.html height="55" unit="%" duration="777" number="1" %}{% endif %}
             <br>
           </div>
         </article>
