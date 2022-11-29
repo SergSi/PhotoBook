@@ -32,7 +32,7 @@
 .width-container {
   position: relative;
   width: 100%;
-  max-width: 800px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
@@ -128,7 +128,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-size: 1.7em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.9em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   font-family: 'Philosopher', sans-serif;
@@ -147,6 +147,7 @@ p + p {
 h1, h2, h3, h4, h5, h6 {
   column-count: 1;
 }
+
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -498,7 +499,5 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
-  body {
-    font-size: 1.8em; /* currently ems cause chrome bug misinterpreting rems on body element */
-    }
+
 }

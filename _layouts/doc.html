@@ -17,7 +17,7 @@
             {% if page.when %}<h6 style="font-size: 1.2em;" class="center">{% include rus.html html=content %}</h6>{% endif %}
             {% if page.year %}<h6 style="font-size: 1.2em;" class="center">{{ page.year }} г.</h6>{% endif %}      
           <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line flip">
-          <br>{% if page.abstract %}<h4 style="margin-top: 0;" class="center">{{ page.abstract }}</h4>{% endif %}
+          <br>{% if page.abstract %}<h5 style="margin-top: 0; font-style: italic; font-family: 'Old Standard TT', serif;" class="center">{{ page.abstract }}<br><br></h5>{% endif %}
         </div>
         <div class="justify container">
           {% include toc.html html=content %}
