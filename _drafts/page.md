@@ -2,10 +2,10 @@
 layout: doc
 title: ""
 author: ""
-subtitle: ""
-abstract: ""
-when: ""
-year: ""
+subtitle: 
+abstract: 
+when: 
+year: 
 category:
 gallery:
   - image_url: example-1.jpg

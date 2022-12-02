@@ -10,12 +10,6 @@ baseurl: ""
 permalink: '/:categories/:title/'
 
 collections:
-  docs:
-      output: true
-      permalink: /:collection/:name
-  archives:
-      output: true
-      permalink: /:collection/:name
 
 # Build settings
 exclude: 

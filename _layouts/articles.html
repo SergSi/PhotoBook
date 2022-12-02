@@ -5,8 +5,11 @@
   </head>
   <body>
     {% include head.html %}
-    <main class="width-container">
-      {% include list_post.html %}
+    <main>
+      <div class="width-container">
+        {{ content }}
+        {% include list_articles.html %}
+      </div>
     </main>
     <footer>
       {% include foot.html %}

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: docs
 title: Материалы для книги
-permalink: /posts/
+permalink: /docs/
 ---
