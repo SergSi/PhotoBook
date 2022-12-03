@@ -1,9 +1,9 @@
 <div class="articles">
 {% assign int = 1 %}
-{% for category in site.categories %}
-<h4 class="center linetitle">{{ category[0] }}</h4>
+{% for doc in site.data.docs %}
+<h2 class="center linetitle">{{ doc.head }}</h2>
   {% for post in site.posts %}
-    {% if post.category == category[0] %}
+    {% if post.category == doc.name %}
       {% if int == 1  %}{% cycle "add row1": "<div class='row'>", "", "" %}{% endif %}
       {% if int == 2  %}{% cycle "add row2": "<div class='row'>", "", "" %}{% endif %}
       {% if int == 3  %}{% cycle "add row3": "<div class='row'>", "", "" %}{% endif %}
