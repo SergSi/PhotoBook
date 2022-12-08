@@ -4,7 +4,6 @@ title: ""
 author: ""
 subtitle: 
 abstract: 
-when: 
 year: 
 category:
 gallery:
