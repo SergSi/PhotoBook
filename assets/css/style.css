@@ -269,9 +269,8 @@ figcaption {
     position: absolute;
 }
 .old-film {
-    max-width: 90%;
     --filmbg: #fff;
-    height: auto;
+    height: 500px;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -283,8 +282,8 @@ figcaption {
     background-repeat: no-repeat;
     background-size: cover;
     transition: all 0.5s ease 0s;
-    margin: auto;
-    border-radius: 15px;
+    margin: 20px 0;
+    border-radius: 30px;
 }
 .old-film:after {
     content: "";
@@ -367,7 +366,7 @@ figcaption {
     100% { transform: translateX(30%); }
 }
 .old-film.sepia {
-    filter: sepia(0.75);
+    filter: sepia(0.35);
 }
 .old-film.invert .film {
     filter: invert(1)
