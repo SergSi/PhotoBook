@@ -212,6 +212,8 @@ and (min-device-width : 768px)  {
     margin-right:0;
   }
 }
+
+
 /* ============================================================ */
 /* IMG */
 /* ============================================================ */
@@ -281,7 +283,7 @@ figcaption {
     background-size: cover;
     transition: all 0.5s ease 0s;
     margin: 20px 0;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 .old-film:after {
     content: "";
