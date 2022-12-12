@@ -269,20 +269,21 @@ figcaption {
     position: absolute;
 }
 .old-film {
+    max-width: 90%;
     --filmbg: #fff;
-    height: 500px;
+    height: auto;
     position: relative;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--filmbg);
-    background-image: url(background.jpg);
+    background-image: url("../img/03-5.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: all 0.5s ease 0s;
-    margin: 20px 0;
+    margin: auto;
     border-radius: 15px;
 }
 .old-film:after {
