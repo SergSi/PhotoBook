@@ -136,6 +136,9 @@ body {
 }
 
 
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 p {
   margin-bottom: 0.15em;
 }
@@ -149,9 +152,6 @@ h1, h2, h3, h4, h5, h6 {
   column-count: 1;
 }
 
-
-/* Typography
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 1em;
   margin-bottom: 2rem;
@@ -424,6 +424,15 @@ ol,
 form {
   margin-bottom: 2.5rem; }
 
+blockquote  {
+  border-left-style: double;
+  border-left-color: grey;
+  border-left-width: 4px;
+  font-style: italic;
+  padding-left: 3%;
+  margin-left: 0%;
+  line-height: 1.4;
+}
 
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
