@@ -1,15 +1,7 @@
-<div>
-	{% for item in page.gallery %}
-  {% if item.caption %}
-  <figure>
-  {% endif %}
-    <img class="foto" alt="Фото" src="{{ site.urlimg }}{{ item.image_url }}" /><br>
-      {% if item.caption %}
-      <figcaption class="center">
-        {{ item.caption }}
+
+  <figure class="bordernot">
+     <img class="foto" alt="Фото" src="{{ site.urlimg }}{{ page.image_url }}" /><br>
+      <figcaption class="center bordernot">
+        {{ page.caption }}
       </figcaption>
   </figure>
-  
-  {% endif %}
-  {% endfor %}
-</div>

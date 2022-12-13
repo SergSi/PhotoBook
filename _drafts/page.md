@@ -20,6 +20,8 @@ carousel:
     caption: Great images 
   - image_url: example-3.jpg
     caption: Great images  
-style:                     
+style:   
+image_url: 
+caption:                  
 ---
 

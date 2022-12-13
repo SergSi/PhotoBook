@@ -24,6 +24,7 @@
           {{ content }}
         </div>
         <div class="width-container">
+          {% if page.image_url %}{% include image %}{% endif %}
           {% if page.gallery %}{% include gallery %}{% endif %}
           {% if page.carousel %}{% include carousel.html height="55" unit="%" duration="777" number="1" %}{% endif %}
           <br>
