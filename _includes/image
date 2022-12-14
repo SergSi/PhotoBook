@@ -1,7 +1,0 @@
-
-  <figure class="bordernot">
-     <img class="foto" alt="Фото" src="{{ site.urlimg }}{{ page.image_url }}" /><br>
-      <figcaption class="center bordernot">
-        {{ page.caption }}
-      </figcaption>
-  </figure>
