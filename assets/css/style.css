@@ -284,6 +284,7 @@ figcaption {
   margin: auto;
   width: auto;
   max-width: 90%;
+  aspect-ratio: auto; 
 }
 
 .sepia {
