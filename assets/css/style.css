@@ -246,37 +246,17 @@ and (min-device-width : 768px)  {
 /* IMG */
 /* ============================================================ */
 
-figure {
-  display: table;
-  width: auto;
-  max-width: auto;
-  border: thin grey solid;
-  border-bottom: none;
-  margin: 0em;
-  padding-bottom: 0em;
-  padding-top: 1em;
-  /* Выравнивание по центру */
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0em;
-}
 
 figcaption {
   font-style: italic;
-  font-size: 90%;
-  display: table;
-  caption-side: bottom;
-  padding: 0em;
-  padding-top: 0em;
-  padding-bottom: 0.5em;
-  border: thin grey solid;
-  border-left: none;
-  border-right: none;
-  border-top: none;
+  font-size: 90%; 
+  text-align: center; 
+  padding-top: 1em;
 }
 
 .bordernot {
   border-style: none;
+  box-shadow: none;
 }
 
 .foto {
@@ -285,6 +265,15 @@ figcaption {
   width: auto;
   max-width: 90%;
   aspect-ratio: auto; 
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: auto;
+  max-width: 90%;
+  border-radius: 0.2em;
+  box-shadow: 0.1em 0.4em 0.7em 0.1em #696969;
 }
 
 .sepia {
