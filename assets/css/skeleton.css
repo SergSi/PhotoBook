@@ -53,7 +53,7 @@
 /* For devices larger than 550px */
 @media (min-width: 850px) {
   .book {
-    padding: 5% 5% 3% 5%;
+    padding: 5% 10% 3% 10%;
     margin-bottom: 1em;
     border-radius: 0.3em;
     border-style: solid;
