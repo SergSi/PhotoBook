@@ -37,16 +37,6 @@
   box-sizing: border-box; 
 }
 
-.book {
-	padding: 5% 5% 3% 5%;
-  margin-bottom: 1em;
-  border-radius: 0.3em;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgba(211, 211, 211, 0.719) grey grey rgba(211, 211, 211, 0.719);
-  box-shadow: 0.1em 0.4em 0.7em 0.1em #696969; 
-}
-
 .column,
 .columns {
   width: 100%;
@@ -62,6 +52,16 @@
 
 /* For devices larger than 550px */
 @media (min-width: 850px) {
+  .book {
+    padding: 5% 5% 3% 5%;
+    margin-bottom: 1em;
+    border-radius: 0.3em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(211, 211, 211, 0.719) grey grey rgba(211, 211, 211, 0.719);
+    box-shadow: 0.1em 0.4em 0.7em 0.1em #696969; 
+  }
+  
   .container {
     width: 90%; }
   .column,
