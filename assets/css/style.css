@@ -92,8 +92,32 @@ p::selection{
   font-family: 'Old Standard TT', serif;
 }
 
-.title{
-  font-size: 3.5em;
+.title {
+	text-align: center;
+	position: relative;
+	padding: 1em 0;
+	font-weight: 700;  
+}
+
+.title:before,
+.title:after {
+		content: "";
+		position: absolute;
+		width: 50%;
+		height: 2px;
+		background-color: #212121;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+  
+	.title:before {
+		top: -0.5em;
+	}
+
+	.title:after {
+		bottom: -0.5em;
+	}
 }
 
 .line{
@@ -236,7 +260,6 @@ figure {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0em;
-  z-index: 22;
 }
 
 figcaption {
@@ -262,9 +285,21 @@ figcaption {
   margin: auto;
   width: auto;
   max-width: 90%;
-  border-radius: 0.3em;
-  box-shadow: 0.1em 0.4em 0.7em 0.1em #696969;  
 }
+
+.sepia {
+  filter: sepia(0.7);
+}
+
+.shadow {
+  box-shadow: 0.1em 0.4em 0.7em 0.1em #696969;
+  border-radius: 0.3em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(211, 211, 211, 0.719) grey grey rgba(211, 211, 211, 0.719);
+  box-shadow: 0.1em 0.4em 0.7em 0.1em #696969; 
+}
+
 
 /* ============================================================ */
 /* GRAIN */
