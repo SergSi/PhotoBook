@@ -273,11 +273,7 @@ img {
   width: auto;
   max-width: 90%;
   border-radius: 0.3em;
-  border-style: solid;
-  border-width: 1px;
-  border-color: grey grey grey grey);
   box-shadow: 0.1em 0.4em 0.7em 0.1em #696969; 
-}
 }
 
 .sepia {
@@ -288,7 +284,7 @@ img {
   border-radius: 0.3em;
   border-style: solid;
   border-width: 1px;
-  border-color: grey grey grey grey);
+  border-color: rgb(155, 155, 155) grey grey grey;
   box-shadow: 0.1em 0.4em 0.7em 0.1em #696969; 
 }
 
