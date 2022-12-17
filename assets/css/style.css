@@ -272,8 +272,12 @@ img {
   margin: auto;
   width: auto;
   max-width: 90%;
-  border-radius: 0.2em;
-  box-shadow: 0.1em 0.4em 0.7em 0.1em #696969;
+  border-radius: 0.3em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey grey grey grey);
+  box-shadow: 0.1em 0.4em 0.7em 0.1em #696969; 
+}
 }
 
 .sepia {
@@ -281,11 +285,10 @@ img {
 }
 
 .shadow {
-  box-shadow: 0.1em 0.4em 0.7em 0.1em #696969;
   border-radius: 0.3em;
   border-style: solid;
   border-width: 1px;
-  border-color: rgba(211, 211, 211, 0.719) grey grey rgba(211, 211, 211, 0.719);
+  border-color: grey grey grey grey);
   box-shadow: 0.1em 0.4em 0.7em 0.1em #696969; 
 }
 
