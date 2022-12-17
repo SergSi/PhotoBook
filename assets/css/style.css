@@ -25,10 +25,9 @@ body{
   background-color: #F2F7F9;
   background-size: auto;
   background-position: center;
-  background-repeat: repeat, repeat;
-  background-image: url("../img_bg.jpg"), url("../img_bg3.jpg");
-  background-blend-mode: lighten;
-  background-attachment: scroll;
+  background-repeat: repeat;
+  background-image: url("../img/bg.jpg");
+ background-attachment: scroll;
 }
 
 body::selection{
@@ -339,13 +338,4 @@ img {
 	70% { transform: translate(-4%, -4%); }
 	80% { transform: translate(2%, 2%); }
 	90% { transform: translate(-3%, -3%); }
-}
-
-
-#blend { 
-  width: 400px;
-  height: 400px;
-  background-repeat: no-repeat, repeat;
-  background-image: url("img_tree.gif"), url("paper.gif");
-  background-blend-mode: lighten;
 }
