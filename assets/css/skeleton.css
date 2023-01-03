@@ -366,7 +366,8 @@ label > .label-body {
 ul {
   list-style: circle inside; }
 ol {
-  list-style: decimal inside; }
+  list-style: decimal; 
+}
 ol, ul {
   padding-left: 0;
   margin-top: 0; }
@@ -378,7 +379,6 @@ ol ul {
   font-size: 90%; }
 li {
   margin-bottom: 1rem; }
-
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
