@@ -22,7 +22,7 @@ theme: minima
 gems:
   - jekyll-feed
 
-urlimg: 'https://refbook.ru/assets/img/'
+urlimg: '/assets/img/'
 
 defaults:
     scope:
