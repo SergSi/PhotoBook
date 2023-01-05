@@ -18,8 +18,8 @@
           <br>{% if page.abstract %}<h4 style="margin-top: 0; font-style: italic; font-family: 'Old Standard TT', serif;" class="center">{{ page.abstract }}<br><br></h4>{% endif %}
         </div>
         <div class="justify container">
-          {% include toc.html html=content %}
-          <div class="book">
+          <div id="toc">{% include toc.html html=content %}</div>
+          <div class="book>
             {{ content }} 
             {% if page.gallery %}{% include gallery %}{% endif %}
             {% if page.carousel %}{% include carousel.html height="55" unit="%" duration="777" number="1" %}{% endif %}    
