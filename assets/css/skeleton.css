@@ -459,26 +459,9 @@ blockquote  {
 hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
-  margin-left: 30%;
-  margin-right: 30%;
-  border-width: 0;
+  border-bottom-width: 1px;
   border-top: 1px solid grey; }
 
-hr:before,
-hr:after {
-    content: '';
-    display: inline-block;
-    border-radius: 100%;
-    width: 5px;
-    height: 5px;
-    border: 2px solid grey;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: lightgrey;
-}
-
-  
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Self Clearing Goodness */
