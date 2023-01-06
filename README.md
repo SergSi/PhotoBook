@@ -1,6 +1,6 @@
 # Info
 
-<img alt="Фото" src="https://sergsi.github.io/Info/assets/img/screenshot.png">
+<img alt="Фото" src="https://sergsi.github.io/Info/assets/img/logo.png">
 
 
 
