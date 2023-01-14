@@ -347,3 +347,9 @@ img {
 	80% { transform: translate(2%, 2%); }
 	90% { transform: translate(-3%, -3%); }
 }
+
+#contentPTtest {
+  font-weight: 700;
+}
+
+   
