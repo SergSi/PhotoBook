@@ -2,7 +2,7 @@
 title: Характер в любительской фотографии
 layout: text
 subtitle: Книга в процессе написания
-## permalink: /text/
+permalink: /text/
 ---
 # Введение
 
