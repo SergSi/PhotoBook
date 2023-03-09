@@ -30,6 +30,11 @@ body{
   background-attachment: scroll;
 }
 
+em {
+  font-style: italic;
+  
+}
+
 body::selection{
   background: #fff2a8;
 }
@@ -76,6 +81,7 @@ p::selection{
     color: #000;
     text-decoration: overline;
 }
+
 
 .author{
   font-size: 1.5em;
