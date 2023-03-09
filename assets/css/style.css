@@ -33,8 +33,7 @@ body{
 em {
   font-style: italic;
   letter-spacing: 0.03em;
-  font-family: 'Neucha', cursive;
-  font-weight: 400;
+  font-family: 'Neucha', cursive;  
 }
 
 body::selection{
