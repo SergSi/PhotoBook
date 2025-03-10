@@ -14,13 +14,9 @@ collections:
 # Build settings
 exclude: 
   - README.md
-  - Gemfile
   - Gemfile.lock
   
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
 
 urlimg: '/assets/img/'
 
